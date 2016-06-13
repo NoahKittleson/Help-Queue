@@ -1,0 +1,32 @@
+{{#if question1}}
+  <p>Have you gone through all the steps on the Learn How to Program debugging lesson?</p>
+  <button class="btn" {{action 'showQuestion2'}}>Yes>></button>
+{{/if}}
+{{#if question2}}
+  <p>Have you asked another pair for help?</p>
+  <button class="btn" {{action 'showQuestion3'}}>Yes>></button>
+{{/if}}
+{{#if question3}}
+  <p>Have you spent 15 minutes going through through the problem documenting every step?</p>
+  <button class="btn" {{action 'showAddTicketForm'}}>Yes>></button>
+{{/if}}
+{{#if addNewTicket}}
+<div class="container_form">
+<form>
+        <div class="form-group">
+          {{input value=name class="form-control" id="name" placeholder="Please enter your name"}}
+        </div>
+
+        <div class="form-group">
+          {{input value=location class="form-control" id="location" placeholder="Please enter your location"}}
+        </div>
+
+        <div class="form-group">
+            {{textarea rows="5" value=info class="form-control info-stuff" id="info" placeholder="Give a brieg description of issues you are having."}}
+        </div>
+
+        <button class="btn the_button" {{action 'save1'}}>Help!</button>
+
+      </form>
+    </div>
+{{/if}}

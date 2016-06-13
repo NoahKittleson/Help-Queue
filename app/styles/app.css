@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Nixie+One);
+
+
+body {
+  background-color: #ecf0f1;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.queue {
+  background-color: #f05a26;
+  font-family: 'Nixie One', cursive;
+  text-align: center;
+  color: white;
+  padding: 1px;
+}
+
+.info-stuff {
+}
+
+form {
+
+  margin-top: 35px;
+}
+
+.btn {
+  background-color: #f05a26;
+  color: white;
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: white;
+  /*background-color: #c0481e;*/
+  background-color: #d43f3a;
+  cursor: pointer;
+}
+
+.the_button {
+  float: right;
+}
+
+.container_form {
+  padding-left: 300px;
+  padding-right: 300px;
+}
