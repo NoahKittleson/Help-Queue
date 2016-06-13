@@ -1,0 +1,5 @@
+<ol>
+  {{#each model as |ticket|}}
+    <li>{{ticket.location}} {{timeDifference}} {{ticket.name}}</li>
+  {{/each}}
+</ol>

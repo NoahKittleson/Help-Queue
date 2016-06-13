@@ -23,10 +23,9 @@ export default Ember.Component.extend({
       var params = {
         name: this.get('name'),
         location: this.get('location'),
-        info: this.get('info')
-        time: this.get('time')
+        info: this.get('info'),
+        startTime: moment().unix()
       };
-      console.log(moment().format('LT'));
       this.set('addNewTicket', false);
       this.sendAction('save2', params);
     }

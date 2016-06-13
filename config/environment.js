@@ -2,6 +2,12 @@
 
 module.exports = function(environment) {
   var ENV = {
+    firebase: {
+      apiKey: "AIzaSyCgmYOc6HzboEcLgqdrbaZCghlq2LRXONA",
+      authDomain: "ember-queue-66b58.firebaseapp.com",
+      databaseURL: "https://ember-queue-66b58.firebaseio.com",
+      storageBucket: "",
+    },
     modulePrefix: 'ember-queue',
     environment: environment,
     baseURL: '/',
